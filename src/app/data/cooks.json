@@ -1,0 +1,905 @@
+[
+  {
+    "name": "Ванеса",
+    "surname": "Николов",
+    "typeOfFood": ["италијанска", "интернационална"],
+    "starRated": 5,
+    "city": "Скопје",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Ванеса"
+    },
+    "mainDish": [
+      {
+        "name": "Пица Маргарита",
+        "ingredients": ["помидори", "моцарела", "базилика"],
+        "price": 350,
+        "starRated": 5,
+        "shortDescription": "Класична италијанска пица.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Спагети Болонезе",
+        "ingredients": ["млевено месо", "помидори", "лук"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Спагети со традиционален сос.",
+        "allergens": ["глутен"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Класичен Бургер",
+        "ingredients": ["месо", "сирење", "марула"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Вкусен бургер со свежи состојки.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Пастата со Песто",
+        "ingredients": ["паста", "песто", "парадајз"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Паста со ароматичен сос.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Кари пилешко",
+        "ingredients": ["пилешко", "кари", "кокосово млеко"],
+        "price": 450,
+        "starRated": 5,
+        "shortDescription": "Вкусно пилешко во кари сос.",
+        "allergens": ["млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Марко",
+    "surname": "Димов",
+    "typeOfFood": ["српска", "интернационална"],
+    "starRated": 4,
+    "city": "Битола",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Марко"
+    },
+    "mainDish": [
+      {
+        "name": "Чорба од говедско месо",
+        "ingredients": ["говедско", "моркови", "цвекло"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Традиционална чорба.",
+        "allergens": []
+      },
+      {
+        "name": "Српска Салата",
+        "ingredients": ["краставици", "домати", "пиперки"],
+        "price": 150,
+        "starRated": 5,
+        "shortDescription": "Свежа салата.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Пилешки Стек",
+        "ingredients": ["пилешко", "зеленчук", "зачини"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Сочен пилешки стек.",
+        "allergens": []
+      },
+      {
+        "name": "Печено Месо",
+        "ingredients": ["свинско", "зеленчук", "зачини"],
+        "price": 500,
+        "starRated": 5,
+        "shortDescription": "Печено месо со гарнир.",
+        "allergens": []
+      },
+      {
+        "name": "Пица Пршут",
+        "ingredients": ["помидори", "пршут", "моцарела"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Пица со пршут.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Светлана",
+    "surname": "Георгиева",
+    "typeOfFood": ["македонска", "италијанска"],
+    "starRated": 5,
+    "city": "Охрид",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Светлана"
+    },
+    "mainDish": [
+      {
+        "name": "Тавче Гравче",
+        "ingredients": ["гравче", "зеленчук", "зачини"],
+        "price": 250,
+        "starRated": 5,
+        "shortDescription": "Традиционално македонско јадење.",
+        "allergens": []
+      },
+      {
+        "name": "Лазањи",
+        "ingredients": ["паста", "млевено месо", "сирење"],
+        "price": 450,
+        "starRated": 4,
+        "shortDescription": "Слоеви на вкусна паста.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Здрава Салата",
+        "ingredients": ["зеленчук", "маслиново масло", "зачини"],
+        "price": 200,
+        "starRated": 5,
+        "shortDescription": "Свежа салата со маслиново масло.",
+        "allergens": []
+      },
+      {
+        "name": "Ризото",
+        "ingredients": ["ориз", "парадајз", "зеленчук"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Кремасто ризото со зеленчук.",
+        "allergens": []
+      },
+      {
+        "name": "Спагети Аљо",
+        "ingredients": ["спагети", "босилек", "чекирани ореви"],
+        "price": 350,
+        "starRated": 5,
+        "shortDescription": "Спагети со ароматични зачини.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Иван",
+    "surname": "Костов",
+    "typeOfFood": ["италијанска", "француска"],
+    "starRated": 4,
+    "city": "Тетово",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Иван"
+    },
+    "mainDish": [
+      {
+        "name": "Крем Супа од Патлиџан",
+        "ingredients": ["патлиџан", "супа", "зачини"],
+        "price": 300,
+        "starRated": 5,
+        "shortDescription": "Крем супа со патлиџан.",
+        "allergens": []
+      },
+      {
+        "name": "Тарт Татен",
+        "ingredients": ["јаболка", "тесто", "шеќер"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Француски десерт со јаболка.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Класичен Бенедикт",
+        "ingredients": ["јајца", "шунка", "леб"],
+        "price": 350,
+        "starRated": 4,
+        "shortDescription": "Популарен појадок.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Печена Лосос",
+        "ingredients": ["лосос", "зеленчук", "зачини"],
+        "price": 600,
+        "starRated": 5,
+        "shortDescription": "Здраво печено јадење.",
+        "allergens": []
+      },
+      {
+        "name": "Паста Карбонара",
+        "ingredients": ["паста", "шунка", "сланина"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Италијанска паста со сланина.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Катарина",
+    "surname": "Петровска",
+    "typeOfFood": ["бугарска", "македонска"],
+    "starRated": 4,
+    "city": "Прилеп",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Катарина"
+    },
+    "mainDish": [
+      {
+        "name": "Печен Пипер",
+        "ingredients": ["пипер", "маслиново масло", "зачини"],
+        "price": 280,
+        "starRated": 4,
+        "shortDescription": "Печени пиперки со зачини.",
+        "allergens": []
+      },
+      {
+        "name": "Сарми",
+        "ingredients": ["кисела зелка", "млевено месо", "ориз"],
+        "price": 400,
+        "starRated": 5,
+        "shortDescription": "Традиционални сарми.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Баница",
+        "ingredients": ["лупени кори", "сирење", "јајца"],
+        "price": 200,
+        "starRated": 5,
+        "shortDescription": "Популарно македонско јадење.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Летен Ручек",
+        "ingredients": ["зеленчук", "туна", "маслиново масло"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Летна салата со туна.",
+        "allergens": []
+      },
+      {
+        "name": "Печени Патлиџани",
+        "ingredients": ["патлиџан", "зачини", "маслиново масло"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Печени патлиџани со маслиново масло.",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "name": "Александар",
+    "surname": "Костов",
+    "typeOfFood": ["италијанска", "помфрит"],
+    "starRated": 5,
+    "city": "Скопје",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Александар"
+    },
+    "mainDish": [
+      {
+        "name": "Пица Маргарита",
+        "ingredients": ["тесто", "домати", "сирење"],
+        "price": 350,
+        "starRated": 5,
+        "shortDescription": "Класична италијанска пица.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Паста Алфредо",
+        "ingredients": ["паста", "слатка павлака", "пармеЗан"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Паста со кремаст сос.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Лазанја",
+        "ingredients": ["тесто", "млевено месо", "сирење"],
+        "price": 450,
+        "starRated": 5,
+        "shortDescription": "Италијанска лазанја.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Ризото",
+        "ingredients": ["ориз", "пармезан", "зеленчук"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Ризото со зеленчук.",
+        "allergens": []
+      },
+      {
+        "name": "Спагети Болонезе",
+        "ingredients": ["спагети", "млевено месо", "парадајз"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Класична спагети Болонезе.",
+        "allergens": ["глутен"]
+      }
+    ]
+  },
+  {
+    "name": "Марија",
+    "surname": "Спасовска",
+    "typeOfFood": ["српска", "вегетаријанска"],
+    "starRated": 4,
+    "city": "Битола",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Марија"
+    },
+    "mainDish": [
+      {
+        "name": "Српска Салата",
+        "ingredients": ["домати", "краставици", "зеленчуци"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Свежа салата.",
+        "allergens": []
+      },
+      {
+        "name": "Вегетаријански Чили",
+        "ingredients": ["грав", "паприка", "зачини"],
+        "price": 300,
+        "starRated": 5,
+        "shortDescription": "Вегетаријански чили со зачини.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Печени Патлиџани",
+        "ingredients": ["патлиџан", "зачини", "маслиново масло"],
+        "price": 200,
+        "starRated": 4,
+        "shortDescription": "Печени патлиџани.",
+        "allergens": []
+      },
+      {
+        "name": "Зелена Салата",
+        "ingredients": ["зелени листови", "маслиново масло", "лимон"],
+        "price": 180,
+        "starRated": 4,
+        "shortDescription": "Зелена салата со маслиново масло.",
+        "allergens": []
+      },
+      {
+        "name": "Вегетаријански Бургер",
+        "ingredients": ["путер од кикирики", "зеленчук", "леб"],
+        "price": 350,
+        "starRated": 5,
+        "shortDescription": "Вегетаријански бургер.",
+        "allergens": ["глутен", "кикирики"]
+      }
+    ]
+  },
+  {
+    "name": "Стефан",
+    "surname": "Тодоров",
+    "typeOfFood": ["бугарска", "морска"],
+    "starRated": 5,
+    "city": "Охрид",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Стефан"
+    },
+    "mainDish": [
+      {
+        "name": "Морска Храна",
+        "ingredients": ["риба", "помфрит", "зачини"],
+        "price": 600,
+        "starRated": 5,
+        "shortDescription": "Свежа морска храна.",
+        "allergens": ["риба"]
+      },
+      {
+        "name": "Ризото со Риба",
+        "ingredients": ["ризото", "риба", "зеленчук"],
+        "price": 500,
+        "starRated": 4,
+        "shortDescription": "Ризото со свежа риба.",
+        "allergens": ["глутен", "риба"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Печени Риби",
+        "ingredients": ["риба", "лимон", "зачини"],
+        "price": 700,
+        "starRated": 5,
+        "shortDescription": "Печени риби со лимон.",
+        "allergens": ["риба"]
+      },
+      {
+        "name": "Тиквички со Риба",
+        "ingredients": ["тиквички", "риба", "зачини"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Тиквички со риба.",
+        "allergens": ["риба"]
+      },
+      {
+        "name": "Морски Микс",
+        "ingredients": ["различни видови риба", "зачини", "помфрит"],
+        "price": 750,
+        "starRated": 5,
+        "shortDescription": "Морски микс со свежи риби.",
+        "allergens": ["риба"]
+      }
+    ]
+  },
+  {
+    "name": "Кристина",
+    "surname": "Јованова",
+    "typeOfFood": ["интернационална"],
+    "starRated": 4,
+    "city": "Тетово",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Кристина"
+    },
+    "mainDish": [
+      {
+        "name": "Суши",
+        "ingredients": ["ориз", "свежа риба", "авокадо"],
+        "price": 800,
+        "starRated": 5,
+        "shortDescription": "Свежи суши ролни.",
+        "allergens": ["риба", "глутен"]
+      },
+      {
+        "name": "Тапас",
+        "ingredients": ["месо", "зеленчук", "зачини"],
+        "price": 600,
+        "starRated": 4,
+        "shortDescription": "Интернационални тапас.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Паста Песто",
+        "ingredients": ["паста", "песто", "пармеЗан"],
+        "price": 500,
+        "starRated": 4,
+        "shortDescription": "Паста со песто сос.",
+        "allergens": ["глутен", "млечни производи"]
+      },
+      {
+        "name": "Чили Кон Карне",
+        "ingredients": ["млевено месо", "грав", "паприка"],
+        "price": 400,
+        "starRated": 5,
+        "shortDescription": "Класично чили кон карне.",
+        "allergens": []
+      },
+      {
+        "name": "Пица Хавајска",
+        "ingredients": ["тесто", "ананас", "шунка"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Пица со ананас и шунка.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Даниела",
+    "surname": "Нешковска",
+    "typeOfFood": ["мексиканска", "вегетаријанска"],
+    "starRated": 4,
+    "city": "Гостивар",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Даниела"
+    },
+    "mainDish": [
+      {
+        "name": "Такос",
+        "ingredients": ["тортиља", "зеленчук", "зачини"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Свежи такос со зеленчук.",
+        "allergens": []
+      },
+      {
+        "name": "Фахита",
+        "ingredients": ["месо", "пиперка", "лук"],
+        "price": 400,
+        "starRated": 5,
+        "shortDescription": "Мексиканска фахита.",
+        "allergens": ["глутен"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Чили",
+        "ingredients": ["млевено месо", "зачини", "грав"],
+        "price": 350,
+        "starRated": 4,
+        "shortDescription": "Мексиканско чили.",
+        "allergens": []
+      },
+      {
+        "name": "Гуакамоле",
+        "ingredients": ["авокадо", "лимон", "зачини"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Свеж гуакамоле.",
+        "allergens": []
+      },
+      {
+        "name": "Кесадилја",
+        "ingredients": ["тортиља", "сирење", "зеленчук"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Кесадилја со сирење.",
+        "allergens": ["глутен", "млечни производи"]
+      }
+    ]
+  },
+  {
+    "name": "Игор",
+    "surname": "Петров",
+    "typeOfFood": ["кинеска"],
+    "starRated": 5,
+    "city": "Кавадарци",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Игор"
+    },
+    "mainDish": [
+      {
+        "name": "Кинески Нудли",
+        "ingredients": ["нудли", "сос од соја", "зеленчук"],
+        "price": 400,
+        "starRated": 5,
+        "shortDescription": "Свежи кинески нудли со зеленчук.",
+        "allergens": ["глутен"]
+      },
+      {
+        "name": "Печени Риба",
+        "ingredients": ["риба", "зачини", "лимон"],
+        "price": 500,
+        "starRated": 5,
+        "shortDescription": "Печена риба со зачини.",
+        "allergens": ["риба"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Кинеска Салата",
+        "ingredients": ["зеленчук", "мораче", "зачини"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Свежа кинеска салата.",
+        "allergens": []
+      },
+      {
+        "name": "Чили Пиле",
+        "ingredients": ["пиле", "чушки", "зачини"],
+        "price": 450,
+        "starRated": 5,
+        "shortDescription": "Пиле со чили сос.",
+        "allergens": []
+      },
+      {
+        "name": "Ризото",
+        "ingredients": ["ризото", "зеленчук", "парадајз"],
+        "price": 400,
+        "starRated": 4,
+        "shortDescription": "Кинеско ризото со свежи состојки.",
+        "allergens": []
+      }
+    ]
+  },
+
+  {
+    "name": "Лена",
+    "surname": "Тодоров",
+    "typeOfFood": ["италијанска"],
+    "starRated": 4,
+    "city": "Скопје",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Лена"
+    },
+    "mainDish": [
+      {
+        "name": "Паста алфредо",
+        "ingredients": ["паста", "сметана", "парадајз"],
+        "price": 350,
+        "starRated": 4,
+        "shortDescription": "Кремаста паста со парадајз.",
+        "allergens": ["млеко"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Пица",
+        "ingredients": ["тесто", "сирење", "шунка"],
+        "price": 300,
+        "starRated": 5,
+        "shortDescription": "Вкусна пица со свежи состојки.",
+        "allergens": ["глутен"]
+      }
+    ]
+  },
+  {
+    "name": "Марија",
+    "surname": "Атанасов",
+    "typeOfFood": ["мексиканска"],
+    "starRated": 5,
+    "city": "Битола",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Марија"
+    },
+    "mainDish": [
+      {
+        "name": "Такос",
+        "ingredients": ["тортилја", "месо", "зеленчук"],
+        "price": 400,
+        "starRated": 5,
+        "shortDescription": "Традиционални мексикански такос.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Гуакамоле",
+        "ingredients": ["авокадо", "цитрус", "зачини"],
+        "price": 200,
+        "starRated": 4,
+        "shortDescription": "Свежа гуакамоле.",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "name": "Александар",
+    "surname": "Митев",
+    "typeOfFood": ["грчка"],
+    "starRated": 4,
+    "city": "Охрид",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Александар"
+    },
+    "mainDish": [
+      {
+        "name": "Сувлаки",
+        "ingredients": ["месо", "лепче", "зеленчук"],
+        "price": 450,
+        "starRated": 4,
+        "shortDescription": "Традиционален грчки сувлаки.",
+        "allergens": ["глутен"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Грчка Салата",
+        "ingredients": ["домати", "краставици", "маслинки"],
+        "price": 250,
+        "starRated": 4,
+        "shortDescription": "Свежа грчка салата.",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "name": "Светлана",
+    "surname": "Ристова",
+    "typeOfFood": ["француска"],
+    "starRated": 5,
+    "city": "Тетово",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Светлана"
+    },
+    "mainDish": [
+      {
+        "name": "Кроасан",
+        "ingredients": ["брашно", "путер", "сирење"],
+        "price": 250,
+        "starRated": 5,
+        "shortDescription": "Вкусен француски кроасан.",
+        "allergens": ["глутен", "млеко"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Рататоуи",
+        "ingredients": ["зеленчук", "зачини"],
+        "price": 300,
+        "starRated": 4,
+        "shortDescription": "Традиционално француско јадење.",
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "name": "Димитар",
+    "surname": "Павлов",
+    "typeOfFood": ["бугарска"],
+    "starRated": 3,
+    "city": "Гевгелија",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Димитар"
+    },
+    "mainDish": [
+      {
+        "name": "Шопска Салата",
+        "ingredients": ["домати", "пиперки", "сирење"],
+        "price": 200,
+        "starRated": 4,
+        "shortDescription": "Традиционална шопска салата.",
+        "allergens": []
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Бугарска Пита",
+        "ingredients": ["брашно", "сирење", "јајца"],
+        "price": 280,
+        "starRated": 3,
+        "shortDescription": "Свежа бугарска пита.",
+        "allergens": ["глутен", "млеко"]
+      }
+    ]
+  },
+  {
+    "name": "Бојан",
+    "surname": "Костов",
+    "foodTypes": ["италијанска", "мексиканска"],
+    "starRated": 5,
+    "city": "Охрид",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Бојан Костов"
+    },
+    "mainDish": [
+      {
+        "name": "Пица со печурки",
+        "ingredients": ["тесто", "печурки", "моцарела"],
+        "price": 300,
+        "starRated": 5,
+        "description": "Пица со свежи печурки.",
+        "allergens": ["глутен", "млеко"]
+      },
+      {
+        "name": "Спагети Болонезе",
+        "ingredients": ["спагети", "месо", "парадајз сос"],
+        "price": 280,
+        "starRated": 5,
+        "description": "Класични италијански спагети.",
+        "allergens": ["глутен"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Тост со авокадо",
+        "ingredients": ["тост", "авокадо", "зачини"],
+        "price": 150,
+        "starRated": 4,
+        "description": "Здрав појадок со авокадо.",
+        "allergens": []
+      },
+      {
+        "name": "Чизкејк",
+        "ingredients": ["крем сирење", "бисквити", "сметана"],
+        "price": 220,
+        "starRated": 5,
+        "description": "Сладок чизкејк со бисквити.",
+        "allergens": ["глутен", "млеко"]
+      },
+      {
+        "name": "Капрезе салата",
+        "ingredients": ["моцарела", "парадајз", "базилико"],
+        "price": 180,
+        "starRated": 4,
+        "description": "Свежа капрезе салата.",
+        "allergens": ["млеко"]
+      },
+      {
+        "name": "Пилешка салата",
+        "ingredients": ["пилешко", "марули", "дресинг"],
+        "price": 200,
+        "starRated": 3,
+        "description": "Здрава пилешка салата.",
+        "allergens": []
+      },
+      {
+        "name": "Бургер со печурки",
+        "ingredients": ["месо", "печурки", "зеленчук"],
+        "price": 320,
+        "starRated": 5,
+        "description": "Бургер со печурки.",
+        "allergens": ["глутен"]
+      }
+    ]
+  },
+  {
+    "name": "Кристијан",
+    "surname": "Атанасов",
+    "foodTypes": ["интернационална", "македонска"],
+    "starRated": 4,
+    "city": "Струмица",
+    "image": {
+      "url": "Vanesa.jpg",
+      "altText": "Кристијан Атанасов"
+    },
+    "mainDish": [
+      {
+        "name": "Мусака",
+        "ingredients": ["млевено месо", "партенот", "зачини"],
+        "price": 350,
+        "starRated": 5,
+        "description": "Традиционална македонска мусака.",
+        "allergens": []
+      },
+      {
+        "name": "Лазања",
+        "ingredients": ["лазања", "месо", "парадајз сос"],
+        "price": 320,
+        "starRated": 4,
+        "description": "Италијанска лазања.",
+        "allergens": ["глутен", "млеко"]
+      }
+    ],
+    "dishes": [
+      {
+        "name": "Салата од компири",
+        "ingredients": ["компири", "лук", "зачини"],
+        "price": 150,
+        "starRated": 3,
+        "description": "Салата од компири.",
+        "allergens": []
+      },
+      {
+        "name": "Ризото",
+        "ingredients": ["ризото", "печурки", "зачини"],
+        "price": 280,
+        "starRated": 4,
+        "description": "Кремасто ризото со печурки.",
+        "allergens": []
+      },
+      {
+        "name": "Куличи",
+        "ingredients": ["мед", "тесто", "зачини"],
+        "price": 220,
+        "starRated": 5,
+        "description": "Традиционални куличи.",
+        "allergens": ["глутен", "млеко"]
+      },
+      {
+        "name": "Пита од јаболка",
+        "ingredients": ["јаболка", "тесто", "зачини"],
+        "price": 180,
+        "starRated": 4,
+        "description": "Сладок десерт со јаболка.",
+        "allergens": ["глутен"]
+      },
+      {
+        "name": "Печено пиле",
+        "ingredients": ["пилешко", "зачини", "масло"],
+        "price": 350,
+        "starRated": 5,
+        "description": "Печено пиле со зачини.",
+        "allergens": []
+      }
+    ]
+  }
+]
