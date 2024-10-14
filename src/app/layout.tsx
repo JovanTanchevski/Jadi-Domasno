@@ -1,21 +1,19 @@
 'use client';
 import './globals.css';
-import { useEffect, useState } from 'react';
-import { NavItem, FooterLinks } from './interfaces/generalInterfaces';
-import navItems from './data/navItems.json';
-import footerItems from './data/footerItems.json';
 import Footer from './general/Footer';
 import Header from './general/Header';
+import { useEffect, useState } from 'react';
+import navItems from './data/navItems.json';
+import footerItems from './data/footerItems.json'; // Import footer items
+import { NavItem } from './interfaces/generalInterfaces';
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [leftNavItems, setLeftNavItems] = useState<NavItem[]>([]);
   const [rightNavItems, setRightNavItems] = useState<NavItem[]>([]);
-  const [footerColumn1, setFooterColumn1] = useState<FooterLinks[]>([]);
-  const [footerColumn2, setFooterColumn2] = useState<FooterLinks[]>([]);
+
   useEffect(() => {
     setLeftNavItems(navItems.leftNavItems);
     setRightNavItems(navItems.rightNavItems);
-    setFooterColumn1(footerItems.column1);
-    setFooterColumn2(footerItems.column2);
   }, []);
 
   return (
@@ -31,8 +29,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             leftNavItems={leftNavItems}
             rightNavItems={rightNavItems}
           />
-          <main className="min-h-screen">{children}</main>
-          <Footer column1={footerColumn1} column2={footerColumn2} />
+          <main className="min-h-dvh">{children}</main>
+          <Footer columns={footerItems.columns} />
         </body>
       </html>
     </>
