@@ -46,6 +46,11 @@ const Values = () => {
           </div>
         ))}
       </div>
+      <div className="mt-8 pb-16 text-center">
+        <button className=" bg-orange-600 text-white transition-all hover:bg-orange-700 hover:text-gray-50 duration-300 py-2 px-7 rounded-full">
+          Дознајте повеќе за нас
+        </button>
+      </div>
     </div>
   );
 };
