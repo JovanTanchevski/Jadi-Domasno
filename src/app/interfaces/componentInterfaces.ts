@@ -4,3 +4,8 @@ export interface BannerProps {
   image: string;
   cities: string[];
 }
+export interface ValueCard {
+  imageSrc: string;
+  title: string;
+  subtitle: string;
+}
