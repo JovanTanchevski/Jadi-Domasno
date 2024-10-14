@@ -1,5 +1,6 @@
 import Banner from './components/Banner';
 import bannerImg from '../../images/tavche-gravche.webp';
+import Values from './components/Values';
 export default function Home() {
   const bannerProps = {
     title: 'Јади Домашно',
@@ -14,6 +15,7 @@ export default function Home() {
         cities={bannerProps.cities}
         image={bannerImg.src}
       />
+      <Values />
     </div>
   );
 }
