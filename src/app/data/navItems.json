@@ -1,0 +1,12 @@
+{
+  "leftNavItems": [
+    { "label": "Готвачи", "href": "#", "iconClass": "fas fa-utensils" },
+    { "label": "Побарајте Понуда", "href": "#", "iconClass": "fas fa-tags" },
+    { "label": "Мени", "href": "#", "iconClass": "fas fa-list" },
+    { "label": "Форум", "href": "#", "iconClass": "fas fa-comments" }
+  ],
+  "rightNavItems": [
+    { "label": "Мој Профил", "href": "#", "iconClass": "fas fa-user" },
+    { "label": "Кошничка", "href": "#", "iconClass": "fas fa-shopping-cart" }
+  ]
+}
