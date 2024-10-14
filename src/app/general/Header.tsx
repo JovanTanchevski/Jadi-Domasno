@@ -9,7 +9,7 @@ const Header = ({ logoText, leftNavItems, rightNavItems }: HeaderProps) => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <header className="flex justify-between items-center py-5 px-8 bg-white">
+    <header className="flex justify-between items-center py-5 px-8 bg-white border-b-2 ">
       <div className="flex items-center space-x-8">
         <Link href="#">
           <p className="text-2xl font-bold">{logoText}</p>

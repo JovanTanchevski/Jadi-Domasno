@@ -15,9 +15,9 @@ const Banner = ({ title, subtitle, image, cities }: BannerProps) => {
 
   return (
     <div className="container mx-auto flex flex-col md:flex-row items-center py-10 px-4">
-      <div className="flex-1 mb-6 md:mb-0 flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold">{title}</h1>
-        <h2 className="text-xl mt-2">{subtitle}</h2>
+      <div className="flex-1 mb-6 md:mb-0 flex flex-col items-center justify-center gap-y-3">
+        <h1 className="text-6xl text-orange-500 font-bold">{title}</h1>
+        <h2 className="text-2xl mt-2">{subtitle}</h2>
         <div className="mt-4 flex items-center">
           <select
             value={selectedCity}

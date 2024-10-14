@@ -29,7 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             leftNavItems={leftNavItems}
             rightNavItems={rightNavItems}
           />
-          <main className="min-h-dvh">{children}</main>
+          <main className="min-h-dvh bg-orange-50">{children}</main>
           <Footer columns={footerItems.columns} />
         </body>
       </html>
